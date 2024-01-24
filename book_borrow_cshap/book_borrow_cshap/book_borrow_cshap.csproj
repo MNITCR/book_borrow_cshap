@@ -57,17 +57,59 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_addbook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_addbook.Designer.cs">
+      <DependentUpon>frm_addbook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_addBookSupply.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_addBookSupply.Designer.cs">
+      <DependentUpon>frm_addBookSupply.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_adminmenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_adminmenu.Designer.cs">
       <DependentUpon>frm_adminmenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_bookSupplyReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_bookSupplyReport.Designer.cs">
+      <DependentUpon>frm_bookSupplyReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_borrowBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_borrowBook.Designer.cs">
+      <DependentUpon>frm_borrowBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_borrowedBooksReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_borrowedBooksReport.Designer.cs">
+      <DependentUpon>frm_borrowedBooksReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_listOfBooks.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_listOfBooks.Designer.cs">
       <DependentUpon>frm_listOfBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_manageMembers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_manageMembers.Designer.cs">
+      <DependentUpon>frm_manageMembers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_returnedbooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_returnedbooks.Designer.cs">
+      <DependentUpon>frm_returnedbooks.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_studentborrowedbook.cs">
       <SubType>Form</SubType>
@@ -98,14 +140,41 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_addbook.resx">
+      <DependentUpon>frm_addbook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_addBookSupply.resx">
+      <DependentUpon>frm_addBookSupply.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_adminmenu.resx">
       <DependentUpon>frm_adminmenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_bookSupplyReport.resx">
+      <DependentUpon>frm_bookSupplyReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_borrowBook.resx">
+      <DependentUpon>frm_borrowBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_borrowedBooksReport.resx">
+      <DependentUpon>frm_borrowedBooksReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_manageMembers.resx">
+      <DependentUpon>frm_manageMembers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_returnedbooks.resx">
+      <DependentUpon>frm_returnedbooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_studentborrowedbook.resx">
+      <DependentUpon>frm_studentborrowedbook.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_studentmenu.resx">
       <DependentUpon>frm_studentmenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_studentregistration.resx">
       <DependentUpon>frm_studentregistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_studentreturnedbooks.resx">
+      <DependentUpon>frm_studentreturnedbooks.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

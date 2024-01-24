@@ -1,6 +1,6 @@
 # book_borrow_cshap
 
-<!-- Create table in oracle -->
+=============> Start Create table in oracle <=============
 
 CREATE TABLE lbr_tbl_users
 (
@@ -15,3 +15,5 @@ CREATE TABLE lbr_tbl_users
     Password VARCHAR2(50),
     IsAdmin VARCHAR2(50)
 );
+
+=============> End Create table in oracle <=============
