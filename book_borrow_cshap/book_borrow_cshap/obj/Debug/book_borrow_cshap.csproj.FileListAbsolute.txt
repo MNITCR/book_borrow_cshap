@@ -14,3 +14,13 @@ D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\De
 D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\Debug\book_borrow_cshap.frm_studentmenu.resources
 D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\bin\Debug\Oracle.DataAccess.dll
 D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\Debug\book_borrow_cshap.csproj.CopyComplete
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\Debug\book_borrow_cshap.frm_addbook.resources
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\Debug\book_borrow_cshap.frm_addBookSupply.resources
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\Debug\book_borrow_cshap.frm_bookSupplyReport.resources
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\Debug\book_borrow_cshap.frm_borrowBook.resources
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\Debug\book_borrow_cshap.frm_borrowedBooksReport.resources
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\Debug\book_borrow_cshap.frm_manageMembers.resources
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\Debug\book_borrow_cshap.frm_returnedbooks.resources
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\Debug\book_borrow_cshap.frm_studentborrowedbook.resources
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\Debug\book_borrow_cshap.frm_studentreturnedbooks.resources
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\Debug\book_borrow_cshap.frm_listOfBooks.resources

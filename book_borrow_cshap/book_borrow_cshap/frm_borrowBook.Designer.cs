@@ -323,6 +323,7 @@
             this.Controls.Add(this.dataBooks);
             this.Name = "frm_borrowBook";
             this.Text = "frm_borrowBook";
+            this.Load += new System.EventHandler(this.frm_borrowBook_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataUser)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataCart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataBooks)).EndInit();

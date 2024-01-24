@@ -108,6 +108,7 @@
             this.Controls.Add(this.data_BorrowedBooks);
             this.Name = "frm_studentborrowedbook";
             this.Text = "frm_studentborrowedbook";
+            this.Load += new System.EventHandler(this.frm_studentborrowedbook_Load);
             ((System.ComponentModel.ISupportInitialize)(this.data_BorrowedBooks)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

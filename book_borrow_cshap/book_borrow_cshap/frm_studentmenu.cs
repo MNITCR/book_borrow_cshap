@@ -37,8 +37,8 @@ namespace book_borrow_cshap
         private void frm_studentmenu_Load(object sender, EventArgs e)
         {
             lbl_studentID.Text = frm_login.SetValueForUserID;
-            lbl_StudentName.Text = frm_login.SetValueForUserName;
-            MessageBox.Show(lbl_studentID.Text);
+            lbl_studentID.Text = frm_login.SetValueForUserID;
+            btn_StudentName.Text = frm_login.SetValueForUserName;
         }
 
         /* Form List Book*/

@@ -37,6 +37,7 @@
             this.lbl_studentID = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btn_StudentName = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,35 +55,35 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
-            this.menuStrip1.Size = new System.Drawing.Size(1093, 80);
+            this.menuStrip1.Size = new System.Drawing.Size(1093, 79);
             this.menuStrip1.TabIndex = 10;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // listOfBooksToolStripMenuItem
             // 
             this.listOfBooksToolStripMenuItem.Name = "listOfBooksToolStripMenuItem";
-            this.listOfBooksToolStripMenuItem.Size = new System.Drawing.Size(185, 74);
+            this.listOfBooksToolStripMenuItem.Size = new System.Drawing.Size(185, 73);
             this.listOfBooksToolStripMenuItem.Text = "List of Books";
             this.listOfBooksToolStripMenuItem.Click += new System.EventHandler(this.listOfBooksToolStripMenuItem_Click);
             // 
             // borrowedBooksToolStripMenuItem
             // 
             this.borrowedBooksToolStripMenuItem.Name = "borrowedBooksToolStripMenuItem";
-            this.borrowedBooksToolStripMenuItem.Size = new System.Drawing.Size(227, 74);
+            this.borrowedBooksToolStripMenuItem.Size = new System.Drawing.Size(227, 73);
             this.borrowedBooksToolStripMenuItem.Text = "Borrowed Books";
             this.borrowedBooksToolStripMenuItem.Click += new System.EventHandler(this.borrowedBooksToolStripMenuItem_Click);
             // 
             // returnedBooksToolStripMenuItem
             // 
             this.returnedBooksToolStripMenuItem.Name = "returnedBooksToolStripMenuItem";
-            this.returnedBooksToolStripMenuItem.Size = new System.Drawing.Size(224, 74);
+            this.returnedBooksToolStripMenuItem.Size = new System.Drawing.Size(224, 73);
             this.returnedBooksToolStripMenuItem.Text = "Returned Books";
             this.returnedBooksToolStripMenuItem.Click += new System.EventHandler(this.returnedBooksToolStripMenuItem_Click);
             // 
             // logOutToolStripMenuItem
             // 
             this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
-            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(125, 74);
+            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(125, 73);
             this.logOutToolStripMenuItem.Text = "Log Out";
             this.logOutToolStripMenuItem.Click += new System.EventHandler(this.logOutToolStripMenuItem_Click);
             // 
@@ -91,11 +92,12 @@
             this.lbl_StudentName.AutoSize = true;
             this.lbl_StudentName.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_StudentName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lbl_StudentName.Location = new System.Drawing.Point(268, 274);
+            this.lbl_StudentName.Location = new System.Drawing.Point(264, 272);
             this.lbl_StudentName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_StudentName.Name = "lbl_StudentName";
-            this.lbl_StudentName.Size = new System.Drawing.Size(0, 39);
+            this.lbl_StudentName.Size = new System.Drawing.Size(139, 39);
             this.lbl_StudentName.TabIndex = 14;
+            this.lbl_StudentName.Text = "<name>";
             // 
             // lbl_studentID
             // 
@@ -133,11 +135,23 @@
             this.label1.TabIndex = 11;
             this.label1.Text = "Student Name:";
             // 
+            // btn_StudentName
+            // 
+            this.btn_StudentName.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.btn_StudentName.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_StudentName.Location = new System.Drawing.Point(807, 12);
+            this.btn_StudentName.Name = "btn_StudentName";
+            this.btn_StudentName.Size = new System.Drawing.Size(150, 54);
+            this.btn_StudentName.TabIndex = 15;
+            this.btn_StudentName.Text = "<name>";
+            this.btn_StudentName.UseVisualStyleBackColor = false;
+            // 
             // frm_studentmenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1093, 530);
+            this.Controls.Add(this.btn_StudentName);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.lbl_StudentName);
             this.Controls.Add(this.lbl_studentID);
@@ -164,5 +178,6 @@
         private System.Windows.Forms.Label lbl_studentID;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btn_StudentName;
     }
 }

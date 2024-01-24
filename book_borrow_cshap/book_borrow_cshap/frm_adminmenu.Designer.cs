@@ -108,54 +108,63 @@
             this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
             this.logOutToolStripMenuItem.Size = new System.Drawing.Size(95, 74);
             this.logOutToolStripMenuItem.Text = "Log Out";
+            this.logOutToolStripMenuItem.Click += new System.EventHandler(this.logOutToolStripMenuItem_Click);
             // 
             // manageMembersToolStripMenuItem
             // 
             this.manageMembersToolStripMenuItem.Name = "manageMembersToolStripMenuItem";
             this.manageMembersToolStripMenuItem.Size = new System.Drawing.Size(184, 74);
             this.manageMembersToolStripMenuItem.Text = "Manage Members";
+            this.manageMembersToolStripMenuItem.Click += new System.EventHandler(this.manageMembersToolStripMenuItem_Click);
             // 
             // bookBorrowReportToolStripMenuItem
             // 
             this.bookBorrowReportToolStripMenuItem.Name = "bookBorrowReportToolStripMenuItem";
             this.bookBorrowReportToolStripMenuItem.Size = new System.Drawing.Size(275, 28);
             this.bookBorrowReportToolStripMenuItem.Text = "Book Borrow Report";
+            this.bookBorrowReportToolStripMenuItem.Click += new System.EventHandler(this.bookBorrowReportToolStripMenuItem_Click);
             // 
             // bookSupplyReportToolStripMenuItem
             // 
             this.bookSupplyReportToolStripMenuItem.Name = "bookSupplyReportToolStripMenuItem";
             this.bookSupplyReportToolStripMenuItem.Size = new System.Drawing.Size(275, 28);
             this.bookSupplyReportToolStripMenuItem.Text = "Book Supply Report";
+            this.bookSupplyReportToolStripMenuItem.Click += new System.EventHandler(this.bookSupplyReportToolStripMenuItem_Click);
             // 
             // addBookSupplyToolStripMenuItem
             // 
             this.addBookSupplyToolStripMenuItem.Name = "addBookSupplyToolStripMenuItem";
             this.addBookSupplyToolStripMenuItem.Size = new System.Drawing.Size(245, 28);
             this.addBookSupplyToolStripMenuItem.Text = "Add Book Supply";
+            this.addBookSupplyToolStripMenuItem.Click += new System.EventHandler(this.addBookSupplyToolStripMenuItem_Click);
             // 
             // addBookToolStripMenuItem
             // 
             this.addBookToolStripMenuItem.Name = "addBookToolStripMenuItem";
             this.addBookToolStripMenuItem.Size = new System.Drawing.Size(245, 28);
             this.addBookToolStripMenuItem.Text = "Add Book Info";
+            this.addBookToolStripMenuItem.Click += new System.EventHandler(this.addBookToolStripMenuItem_Click);
             // 
             // returnBookToolStripMenuItem
             // 
             this.returnBookToolStripMenuItem.Name = "returnBookToolStripMenuItem";
             this.returnBookToolStripMenuItem.Size = new System.Drawing.Size(245, 28);
             this.returnBookToolStripMenuItem.Text = "Return Book";
+            this.returnBookToolStripMenuItem.Click += new System.EventHandler(this.returnBookToolStripMenuItem_Click);
             // 
             // borrowBookToolStripMenuItem
             // 
             this.borrowBookToolStripMenuItem.Name = "borrowBookToolStripMenuItem";
             this.borrowBookToolStripMenuItem.Size = new System.Drawing.Size(245, 28);
             this.borrowBookToolStripMenuItem.Text = "Borrow Book";
+            this.borrowBookToolStripMenuItem.Click += new System.EventHandler(this.borrowBookToolStripMenuItem_Click);
             // 
             // listOfBookToolStripMenuItem
             // 
             this.listOfBookToolStripMenuItem.Name = "listOfBookToolStripMenuItem";
             this.listOfBookToolStripMenuItem.Size = new System.Drawing.Size(245, 28);
             this.listOfBookToolStripMenuItem.Text = "List of Books";
+            this.listOfBookToolStripMenuItem.Click += new System.EventHandler(this.listOfBookToolStripMenuItem_Click);
             // 
             // fileToolStripMenuItem
             // 
@@ -169,7 +178,6 @@
             this.fileToolStripMenuItem.Padding = new System.Windows.Forms.Padding(4, 0, 9, 0);
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(159, 74);
             this.fileToolStripMenuItem.Text = "Manage Books";
-            this.fileToolStripMenuItem.Click += new System.EventHandler(this.fileToolStripMenuItem_Click);
             // 
             // reportToolStripMenuItem
             // 
@@ -208,6 +216,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Name = "frm_adminmenu";
             this.Text = "frm_adminmenu";
+            this.Load += new System.EventHandler(this.frm_adminmenu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataCurrentStocks)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

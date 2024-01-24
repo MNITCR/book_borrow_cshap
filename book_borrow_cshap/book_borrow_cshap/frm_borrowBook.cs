@@ -16,5 +16,11 @@ namespace book_borrow_cshap
         {
             InitializeComponent();
         }
+
+        private void frm_borrowBook_Load(object sender, EventArgs e)
+        {
+            /*loadBooks();
+            loadUsers();*/
+        }
     }
 }

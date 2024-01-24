@@ -94,6 +94,7 @@
             this.Controls.Add(this.data_ReturnedBooks);
             this.Name = "frm_studentreturnedbooks";
             this.Text = "frm_studentreturnedbooks";
+            this.Load += new System.EventHandler(this.frm_studentreturnedbooks_Load);
             ((System.ComponentModel.ISupportInitialize)(this.data_ReturnedBooks)).EndInit();
             this.ResumeLayout(false);
 

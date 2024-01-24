@@ -26,7 +26,6 @@ namespace book_borrow_cshap
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // Use csGlobal.cn instead of creating a new OracleConnection
             csGlobal.cn.ConnectionString = "Data Source=orcl; User ID=MN; Password=1234;";
 
             try
