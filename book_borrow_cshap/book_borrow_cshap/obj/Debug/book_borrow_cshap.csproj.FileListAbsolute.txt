@@ -1,0 +1,16 @@
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\bin\Debug\book_borrow_cshap.exe.config
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\bin\Debug\book_borrow_cshap.exe
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\bin\Debug\book_borrow_cshap.pdb
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\Debug\book_borrow_cshap.csproj.AssemblyReference.cache
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\Debug\book_borrow_cshap.csproj.SuggestedBindingRedirects.cache
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\Debug\book_borrow_cshap.Properties.Resources.resources
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\Debug\book_borrow_cshap.csproj.GenerateResource.cache
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\Debug\book_borrow_cshap.csproj.CoreCompileInputs.cache
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\Debug\book_borrow_cshap.exe
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\Debug\book_borrow_cshap.pdb
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\Debug\book_borrow_cshap.frm_studentregistration.resources
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\Debug\book_borrow_cshap.frm_login.resources
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\Debug\book_borrow_cshap.frm_adminmenu.resources
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\Debug\book_borrow_cshap.frm_studentmenu.resources
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\bin\Debug\Oracle.DataAccess.dll
+D:\YEAR3\SM1\Oracle\book_borrow_cshap\book_borrow_cshap\book_borrow_cshap\obj\Debug\book_borrow_cshap.csproj.CopyComplete
