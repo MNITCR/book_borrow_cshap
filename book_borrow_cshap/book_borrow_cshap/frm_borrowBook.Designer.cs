@@ -127,6 +127,7 @@
             this.btnBorrow.TabIndex = 58;
             this.btnBorrow.Text = "Borrow";
             this.btnBorrow.UseVisualStyleBackColor = true;
+            this.btnBorrow.Click += new System.EventHandler(this.btnBorrow_Click);
             // 
             // btnClear
             // 
@@ -139,6 +140,7 @@
             this.btnClear.TabIndex = 57;
             this.btnClear.Text = "Clear Cart";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // LastName
             // 
@@ -189,6 +191,7 @@
             this.dataUser.RowHeadersWidth = 51;
             this.dataUser.Size = new System.Drawing.Size(592, 299);
             this.dataUser.TabIndex = 63;
+            this.dataUser.SizeChanged += new System.EventHandler(this.dataUser_SizeChanged);
             // 
             // Quantity
             // 
@@ -290,6 +293,7 @@
             this.dataBooks.RowHeadersWidth = 51;
             this.dataBooks.Size = new System.Drawing.Size(356, 539);
             this.dataBooks.TabIndex = 56;
+            this.dataBooks.Click += new System.EventHandler(this.dataBooks_Click);
             // 
             // label4
             // 

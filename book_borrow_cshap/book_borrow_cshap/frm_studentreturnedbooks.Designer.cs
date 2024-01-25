@@ -33,6 +33,7 @@
             this.UserID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Title = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.BooksReturned = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.data_ReturnedBooks)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,7 +47,7 @@
             this.UserID,
             this.Title,
             this.BooksReturned});
-            this.data_ReturnedBooks.Location = new System.Drawing.Point(54, 102);
+            this.data_ReturnedBooks.Location = new System.Drawing.Point(53, 127);
             this.data_ReturnedBooks.Margin = new System.Windows.Forms.Padding(4);
             this.data_ReturnedBooks.Name = "data_ReturnedBooks";
             this.data_ReturnedBooks.ReadOnly = true;
@@ -86,17 +87,31 @@
             this.BooksReturned.Name = "BooksReturned";
             this.BooksReturned.ReadOnly = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.Location = new System.Drawing.Point(327, 26);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(430, 54);
+            this.label1.TabIndex = 63;
+            this.label1.Text = "List Of Return Book";
+            // 
             // frm_studentreturnedbooks
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1105, 602);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.data_ReturnedBooks);
             this.Name = "frm_studentreturnedbooks";
             this.Text = "frm_studentreturnedbooks";
             this.Load += new System.EventHandler(this.frm_studentreturnedbooks_Load);
             ((System.ComponentModel.ISupportInitialize)(this.data_ReturnedBooks)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -107,5 +122,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn UserID;
         private System.Windows.Forms.DataGridViewTextBoxColumn Title;
         private System.Windows.Forms.DataGridViewTextBoxColumn BooksReturned;
+        private System.Windows.Forms.Label label1;
     }
 }

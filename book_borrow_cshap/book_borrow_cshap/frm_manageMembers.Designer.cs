@@ -73,6 +73,7 @@
             this.btnAdd.TabIndex = 52;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // txtPassword
             // 
@@ -86,11 +87,13 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.SystemColors.Control;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label5.Location = new System.Drawing.Point(671, 362);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 16);
+            this.label5.Size = new System.Drawing.Size(89, 22);
             this.label5.TabIndex = 50;
             this.label5.Text = "Password";
             // 
@@ -212,6 +215,7 @@
             this.dataMembers.RowHeadersWidth = 51;
             this.dataMembers.Size = new System.Drawing.Size(998, 313);
             this.dataMembers.TabIndex = 46;
+            this.dataMembers.SelectionChanged += new System.EventHandler(this.dataMembers_SelectionChanged);
             // 
             // btnReset
             // 
@@ -223,6 +227,7 @@
             this.btnReset.TabIndex = 45;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnEdit
             // 
@@ -234,6 +239,7 @@
             this.btnEdit.TabIndex = 44;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // label9
             // 
@@ -426,6 +432,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frm_manageMembers";
             this.Text = "frm_manageMembers";
+            this.Load += new System.EventHandler(this.frm_manageMembers_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataMembers)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
